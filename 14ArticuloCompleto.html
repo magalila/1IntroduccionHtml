@@ -1,0 +1,98 @@
+<!-- 14 - Artículo completo
+A partir de lo visto ejercicios anteriores, crear en un index.html un artículo de blog que tenga:
+
+Una lista de contenido que lleve a cada sección
+Al menos 3 secciones
+Al menos 3 imágenes
+Una lista desordenada
+Una lista ordenada
+Una sección de comentarios, con al menos 3 comentarios-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articulo completo</title>
+</head>
+<body>
+    <header>
+        <h1>Mis bandas favoritas:</h1>
+    </header>
+   
+    <nav>
+        <h2>Secciones:</h2>
+        <ul><!--declaro mis secciones con #-->
+            <li><a href="#seccion1">Seccion 1</a></li>
+            <li><a href="#seccion2">Seccion 2</a></li>
+            <li><a href="#seccion3">Seccion 3</a></li>
+            <li><a href="#comentarios">Comentarios</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="seccion1">
+            <h2>Seccion 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, est.</p>
+            <img alt="rhcp" src="https://www.lanacion.com.ar/resizer/_GkU1ivPpJKXBoH46-3iYmRoebo=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/UKO36Q6TX5AEJPUYQHJVIZZG5U.JPG"/>
+            <ul>
+                <h1>Lista desordenada</h1>
+                <li>elemento 1 de la seccion 1</li>
+                <li>elemento 2 de la seccion 1</li>
+                <li>elemento 3 de la seccion 1</li>
+            </ul>
+            <ol>
+                <h1>Lista ordenada</h1>
+                <li>elemento 1 de la seccion 1</li>
+                <li>elemento 2 de la seccion 1</li>
+                <li>elemento 3 de la seccion 1</li>
+            </ol>
+        </section>
+
+
+        <section id="seccion2"><!--llamo a mi seccion-->
+            <h2>Seccion 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, accusamus.</p>
+            <img alt="pj" src="https://www.mondosonoro.com/wp-content/uploads/2011/09/pearl-jam-promo.jpg"/>
+            <ul>
+                <h1>Lista desordenada</h1>
+                <li>elemento 1 de la seccion 2</li>
+                <li>elemento 2 de la seccion 2</li>
+                <li>elemento 3 de la seccion 2</li>
+            </ul>
+            <ol>
+                <h1>Lista ordenada</h1>
+                <li>elemento 1 de la seccion 2</li>
+                <li>elemento 2 de la seccion 2</li>
+                <li>elemento 3 de la seccion 2</li>
+            </ol>
+        </section>
+
+        <section id="seccion3">
+            <h2>Seccion 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, molestias.</p>
+            <img alt="ac dc" src="https://www.clarin.com/img/2020/01/20/brian-johson-y-angus-young___5KMJiYsE_1256x620__1.jpg"/>
+            <ul>
+                <h1>Lista desordenada</h1>
+                <li>elemento 1 de la seccion 3</li>
+                <li>elemento 2 de la seccion 3</li>
+                <li>elemento 3 de la seccion 3</li>
+            </ul>
+            <ol>
+                <h1>Lista ordenada</h1>
+                <li>elemento 1 de la seccion 3</li>
+                <li>elemento 2 de la seccion 3</li>
+                <li>elemento 3 de la seccion 3</li>
+            </ol>
+        </section>
+
+        <section id="comentarios">
+            <h2>Comentarios:</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, consequuntur.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolor!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repellat.</p>
+        </section>
+    </main>
+    
+</body>
+</html>
